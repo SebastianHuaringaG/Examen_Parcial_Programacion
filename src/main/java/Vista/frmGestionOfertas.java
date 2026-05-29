@@ -64,24 +64,13 @@ public class frmGestionOfertas extends javax.swing.JFrame {
         txtDescripcionOferta.setRows(5);
         jScrollPane1.setViewportView(txtDescripcionOferta);
 
-        txtArea.setText("jTextField1");
-
-        txtFechaInicio.setText("jTextField2");
         txtFechaInicio.addActionListener(this::txtFechaInicioActionPerformed);
-
-        txtFechaTermino.setText("jTextField3");
-
-        txtPuesto.setText("jTextField1");
 
         jLabel6.setText("Descripcion del Puesto");
 
         btnPublicarOferta.setText("PUBLICAR OFERTA");
 
         btnCerrarSesion.setText("CERRAR SESION");
-
-        txtDescRequisito.setText("jTextField1");
-
-        txtOrdenRequisito.setText("jTextField2");
 
         btnAgregarRequisito.setText("AGREGAR REQUISITO");
 
@@ -126,7 +115,7 @@ public class frmGestionOfertas extends javax.swing.JFrame {
                                         .addComponent(jLabel5)
                                         .addGap(18, 18, 18)
                                         .addComponent(txtFechaTermino, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 91, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel7)

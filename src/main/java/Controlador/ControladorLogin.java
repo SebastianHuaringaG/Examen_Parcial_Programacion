@@ -30,17 +30,17 @@ public class ControladorLogin implements ActionListener {
         this.listaClientes = clientes;
         this.listaPostulantes = postulantes;
 
-        // ENLAZAMOS EL BOTÓN DE LA VISTA PRINCIPAL
+        
         this.vistaPrincipal.btnIniciarSesion.addActionListener(this);
         
-        // Botones internos del formulario de Login
+        
         this.vistaLogin.btnIngresar.addActionListener(this);
         this.vistaLogin.btnVolver.addActionListener(this);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        // Si el clic proviene de la pantalla de inicio, mostramos el login
+        
         if (e.getSource() == vistaPrincipal.btnIniciarSesion) {
             vistaPrincipal.setVisible(false);
             vistaLogin.setVisible(true);

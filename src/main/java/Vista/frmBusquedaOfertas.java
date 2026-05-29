@@ -47,8 +47,6 @@ public class frmBusquedaOfertas extends javax.swing.JFrame {
 
         jLabel2.setText("Puesto a postular ");
 
-        txtPuestoSeleccionado.setText("jTextField1");
-
         btnPostular.setText("POSTULAR");
 
         btnCerrarSesion.setText("CERRAR SESION");
@@ -70,7 +68,7 @@ public class frmBusquedaOfertas extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(26, 26, 26)
                         .addComponent(txtPuestoSeleccionado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(35, 35, 35))
                     .addGroup(layout.createSequentialGroup()

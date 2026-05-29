@@ -64,18 +64,6 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
 
         btnVolver.setText("VOLVER");
 
-        txtNombres.setText("jTextField1");
-
-        txtApellidos.setText("jTextField2");
-
-        txtEmail.setText("jTextField3");
-
-        txtDireccion.setText("jTextField4");
-
-        txtNacimiento.setText("jTextField5");
-
-        txtGradoEstudio.setText("jTextField6");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(

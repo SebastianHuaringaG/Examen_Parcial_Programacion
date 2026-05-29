@@ -48,10 +48,6 @@ public class frmLogin extends javax.swing.JFrame {
 
         btnVolver.setText("VOLVER");
 
-        txtUsuario.setText("jTextField1");
-
-        txtClave.setText("jPasswordField1");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -75,7 +71,7 @@ public class frmLogin extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(151, 151, 151)
                         .addComponent(btnIngresar)))
-                .addContainerGap(128, Short.MAX_VALUE))
+                .addContainerGap(154, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

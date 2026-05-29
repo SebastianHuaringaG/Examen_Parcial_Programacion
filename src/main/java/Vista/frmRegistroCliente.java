@@ -62,18 +62,7 @@ public class frmRegistroCliente extends javax.swing.JFrame {
 
         btnRegistrar.setText("REGISTRAR");
 
-        txtRUC.setText("jTextField1");
         txtRUC.addActionListener(this::txtRUCActionPerformed);
-
-        txtRazonSocial.setText("jTextField2");
-
-        txtRubro.setText("jTextField3");
-
-        txtEmail.setText("jTextField4");
-
-        txtContacto.setText("jTextField5");
-
-        txtTelefono.setText("jTextField6");
 
         btnVolver.setText("VOLVER");
 
