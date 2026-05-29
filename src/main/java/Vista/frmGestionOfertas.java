@@ -234,9 +234,9 @@ public class frmGestionOfertas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAgregarRequisito;
-    private javax.swing.JButton btnCerrarSesion;
-    private javax.swing.JButton btnPublicarOferta;
+    public javax.swing.JButton btnAgregarRequisito;
+    public javax.swing.JButton btnCerrarSesion;
+    public javax.swing.JButton btnPublicarOferta;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -246,12 +246,12 @@ public class frmGestionOfertas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField txtArea;
-    private javax.swing.JTextField txtDescRequisito;
-    private javax.swing.JTextArea txtDescripcionOferta;
-    private javax.swing.JTextField txtFechaInicio;
-    private javax.swing.JTextField txtFechaTermino;
-    private javax.swing.JTextField txtOrdenRequisito;
-    private javax.swing.JTextField txtPuesto;
+    public javax.swing.JTextField txtArea;
+    public javax.swing.JTextField txtDescRequisito;
+    public javax.swing.JTextArea txtDescripcionOferta;
+    public javax.swing.JTextField txtFechaInicio;
+    public javax.swing.JTextField txtFechaTermino;
+    public javax.swing.JTextField txtOrdenRequisito;
+    public javax.swing.JTextField txtPuesto;
     // End of variables declaration//GEN-END:variables
 }

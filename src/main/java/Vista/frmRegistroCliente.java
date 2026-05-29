@@ -177,8 +177,8 @@ public class frmRegistroCliente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnRegistrar;
-    private javax.swing.JButton btnVolver;
+    public javax.swing.JButton btnRegistrar;
+    public javax.swing.JButton btnVolver;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -186,11 +186,11 @@ public class frmRegistroCliente extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JTextField txtContacto;
-    private javax.swing.JTextField txtEmail;
-    private javax.swing.JTextField txtRUC;
-    private javax.swing.JTextField txtRazonSocial;
-    private javax.swing.JTextField txtRubro;
-    private javax.swing.JTextField txtTelefono;
+    public javax.swing.JTextField txtContacto;
+    public javax.swing.JTextField txtEmail;
+    public javax.swing.JTextField txtRUC;
+    public javax.swing.JTextField txtRazonSocial;
+    public javax.swing.JTextField txtRubro;
+    public javax.swing.JTextField txtTelefono;
     // End of variables declaration//GEN-END:variables
 }

@@ -128,12 +128,12 @@ public class frmBusquedaOfertas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCerrarSesion;
-    private javax.swing.JButton btnPostular;
+    public javax.swing.JButton btnCerrarSesion;
+    public javax.swing.JButton btnPostular;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea txtListaOfertas;
-    private javax.swing.JTextField txtPuestoSeleccionado;
+    public javax.swing.JTextArea txtListaOfertas;
+    public javax.swing.JTextField txtPuestoSeleccionado;
     // End of variables declaration//GEN-END:variables
 }

@@ -35,8 +35,8 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        btnRegistrar = new javax.swing.JButton();
+        btnVolver = new javax.swing.JButton();
         txtNombres = new javax.swing.JTextField();
         txtApellidos = new javax.swing.JTextField();
         txtEmail = new javax.swing.JTextField();
@@ -60,9 +60,9 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
 
         jLabel7.setText("Grado de Estudio");
 
-        jButton1.setText("REGISTRAR");
+        btnRegistrar.setText("REGISTRAR");
 
-        jButton2.setText("VOLVER");
+        btnVolver.setText("VOLVER");
 
         txtNombres.setText("jTextField1");
 
@@ -85,7 +85,7 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                             .addContainerGap()
-                            .addComponent(jButton2)
+                            .addComponent(btnVolver)
                             .addGap(194, 194, 194))
                         .addGroup(layout.createSequentialGroup()
                             .addGap(34, 34, 34)
@@ -109,7 +109,7 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
                                 .addComponent(txtNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(152, 152, 152)
-                        .addComponent(jButton1)))
+                        .addComponent(btnRegistrar)))
                 .addContainerGap(123, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -118,7 +118,7 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
                 .addGap(13, 13, 13)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel1)
-                    .addComponent(jButton2))
+                    .addComponent(btnVolver))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
@@ -144,7 +144,7 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
                     .addComponent(jLabel7)
                     .addComponent(txtGradoEstudio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29)
-                .addComponent(jButton1)
+                .addComponent(btnRegistrar)
                 .addContainerGap(33, Short.MAX_VALUE))
         );
 
@@ -177,8 +177,8 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    public javax.swing.JButton btnRegistrar;
+    public javax.swing.JButton btnVolver;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -186,11 +186,11 @@ public class frmRegistroPostulante extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JTextField txtApellidos;
-    private javax.swing.JTextField txtDireccion;
-    private javax.swing.JTextField txtEmail;
-    private javax.swing.JTextField txtGradoEstudio;
-    private javax.swing.JTextField txtNacimiento;
-    private javax.swing.JTextField txtNombres;
+    public javax.swing.JTextField txtApellidos;
+    public javax.swing.JTextField txtDireccion;
+    public javax.swing.JTextField txtEmail;
+    public javax.swing.JTextField txtGradoEstudio;
+    public javax.swing.JTextField txtNacimiento;
+    public javax.swing.JTextField txtNombres;
     // End of variables declaration//GEN-END:variables
 }
