@@ -43,16 +43,13 @@
                       </Group>
                       <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                              <Component id="txtRazonSocial" min="-2" max="-2" attributes="0"/>
-                          </Group>
                           <Component id="txtRUC" min="-2" max="-2" attributes="0"/>
                           <Component id="btnRegistrar" min="-2" max="-2" attributes="0"/>
                           <Component id="txtRubro" min="-2" max="-2" attributes="0"/>
                           <Component id="txtEmail" min="-2" max="-2" attributes="0"/>
                           <Component id="txtContacto" min="-2" max="-2" attributes="0"/>
                           <Component id="txtTelefono" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRazonSocial" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
